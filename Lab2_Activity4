@@ -1,0 +1,13 @@
+# Ask user for column titles
+column1 = input("Enter first column title: ")
+column2 = input("Enter second column title: ")
+column3 = input("Enter third column title: ")
+# Ask for data under each column
+data1 = input("Enter data for first column: ")
+data2 = input("Enter data for second column: ")
+data3 = input("Enter data for third column: ")
+# display table
+print(f"{column1:<20}{column2:<20}{column3:<20}")
+print("-" * 60)
+#print data
+print(f"{data1:<20}{data2:<20}{data3:<20}")

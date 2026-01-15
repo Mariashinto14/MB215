@@ -1,0 +1,5 @@
+import turtle
+import tkinter.simpledialog as simpledialog
+#To change the pen size
+turtle.pensize(3)
+
