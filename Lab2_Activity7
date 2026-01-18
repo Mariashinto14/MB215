@@ -1,5 +1,61 @@
 import turtle
 import tkinter.simpledialog as simpledialog
+#to show the turtle graphics window
+turtle.showturtle()
 #To change the pen size
 turtle.pensize(3)
+# Set color
+turtle.pencolor('blue')
+# Move forward
+turtle.forward(100)
+# Turn right
+turtle.right(90)
+# Move forward
+turtle.forward(50)
+# Turn left
+turtle.left(90)
+# Pen up
+turtle.penup()
+# Move to location
+turtle.goto(150,90)
+# Pen down
+turtle.pendown()
+# Draw circle
+turtle.circle(25)
+# Draw dot
+turtle.dot(10)
+turtle.forward(50)
+# Set heading east
+turtle.setheading(0)
+# Change color
+turtle.pencolor('green')
+# Draw filled shape
+turtle.fillcolor('red')
+turtle.begin_fill()
+turtle.circle(66)
+turtle.end_fill()
+# Clear drawing
+turtle.clear()
+# Reset turtle
+turtle.reset()
+# Hide turtle
+turtle.hideturtle()
+# Show turtle
+turtle.showturtle()
+# Set speed
+turtle.speed(5)
+# Display text
+turtle.write("Hello World")
+# Input dialog
+name = turtle.textinput("Input", "Enter your name: ")
+# Fill shape
+turtle.hideturtle()
+turtle.fillcolor('blue')
+turtle.begin_fill()
+turtle.circle(30)
+turtle.end_fill()
+# Close turtle graphics window on click
+turtle.done()
+
+
 
