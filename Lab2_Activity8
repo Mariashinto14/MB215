@@ -1,0 +1,9 @@
+# Get hours worked and pay rate
+hours = float(input("Enter hours worked: "))
+rate = float(input("Enter hourly pay rate: "))
+
+# Calculate gross pay
+gross_pay = hours * rate
+
+# Display result
+print("Gross Pay is:", gross_pay)
