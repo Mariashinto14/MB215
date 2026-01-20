@@ -48,6 +48,11 @@ turtle.speed(5)
 turtle.write("Hello World")
 # Input dialog
 name = turtle.textinput("Input", "Enter your name: ")
+# Display name
+turtle.penup()
+turtle.goto(150,90)
+turtle.pendown()
+turtle.write("Your name is: " + name)
 # Fill shape
 turtle.hideturtle()
 turtle.fillcolor('blue')
